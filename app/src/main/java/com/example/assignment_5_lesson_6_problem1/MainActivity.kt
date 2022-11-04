@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 if (secondQuestion.checkedRadioButtonId == R.id.correctQ2) {
                     score += 50
                 }
-                Toast.makeText(baseContext, "Submitted on " + currentDate + ", You achieved " + score + "%", Toast.LENGTH_SHORT).show()
+                Toast.makeText(baseContext, "Submitted on " + currentDate + ", You achieved " + score + "%", Toast.LENGTH_LONG).show()
         }
 
         findViewById<Button>(R.id.resetButton).setOnClickListener {
